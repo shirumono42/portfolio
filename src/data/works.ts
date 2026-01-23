@@ -17,6 +17,15 @@ export type WorkItem = {
 
 export const works: WorkItem[] = [
   {
+    id: 'portfolio-site',
+    title: 'Portfolio Site',
+    thumbnail: portfolioThumb, // TODO: ここに画像を配置
+    image: portfolioMain, // TODO: ここに画像を配置
+    overview: 'このサイトです', // EDIT: ここを書き換える
+    techs: ['React', 'TypeScript', 'HTML', 'CSS'],
+    comment: 'Reactを使ってみたくて作成したが、Reactらしさがあまりないサイトとなってしまった<br>背景の動画はM→Fes2026で作成したものの使い回しです', // EDIT: ここを書き換える
+  },
+  {
     id: 'tenage-dj',
     title: '空気読みDJテンアゲの助',
     thumbnail: portfolioThumb, // TODO: ここに画像を配置
@@ -24,7 +33,7 @@ export const works: WorkItem[] = [
     overview: 'AIがチャットの雰囲気を読み取り、それに合わせたBGMを流す次世代のチャットアプリ', // EDIT: ここを書き換える
     techs: ['Python', 'ComfyUI', 'React', 'TypeScript'],
     comment:
-      '初めてのReact作品として、構成をコンポーネントで整理することに注力しました。', // EDIT: ここを書き換える
+      'BGMが人間の感情によって変わったら面白いと感じた', // EDIT: ここを書き換える
   },
   {
     id: 'vrc-homeworld',
@@ -57,13 +66,12 @@ export const works: WorkItem[] = [
       '少し懐かしさを感じられる作品に仕上げた', // EDIT: ここを書き換える
   },
   {
-    id: 'id',
-    title: 'title',
+    id: 'first-html',
+    title: '初めてのHTMLサイト',
     thumbnail: landingThumb, // TODO: ここに画像を配置
     image: landingMain, // TODO: ここに画像を配置
-    overview: `overview`, // EDIT: ここを書き換える
-    techs: ['Studio', 'Cavalry', 'Figma'],
-    comment:
-      'comment', // EDIT: ここを書き換える
+    overview: `初めて作成したHTMLサイトの解説`, // EDIT: ここを書き換える
+    techs: ['DaVinci Resolve', 'A.I.VOICE', 'HTML'],
+    comment: 'HTMLの作成時間よりも動画を作っている時間の方が長かった', // EDIT: ここを書き換える
   },
 ]

@@ -4,6 +4,7 @@ import { works } from '../data/works'
 export default function WorkDetail() {
   const { id } = useParams()
   const work = works.find((item) => item.id === id)
+  const commentLines = work?.comment.split('<br>') ?? []
 
   if (!work) {
     return (
@@ -36,7 +37,7 @@ export default function WorkDetail() {
           </section>
 
           <section className="detail__section">
-            <h2>使用した技術</h2>
+            <h2>使用した技術 / ソフトウェア</h2>
             <ul className="detail__tags">
               {work.techs.map((tech) => (
                 <li key={tech} className="detail__tag">
@@ -47,8 +48,15 @@ export default function WorkDetail() {
           </section>
 
           <section className="detail__section">
-            <h2>制作の感想・こだわり</h2>
-            <p>{work.comment}</p>
+            <h2>制作の感想 / こだわり</h2>
+            <p>
+              {commentLines.map((line, index) => (
+                <span key={`${line}-${index}`}>
+                  {line}
+                  {index < commentLines.length - 1 && <br />}
+                </span>
+              ))}
+            </p>
           </section>
 
           <div className="detail__actions">
