@@ -4,7 +4,7 @@ import { infoItems } from '../data/info'
 import { works } from '../data/works'
 import WorkCard from '../components/WorkCard'
 import profileImage from '../assets/aikon.jpg'
-import heroBanner from '../assets/hero-banner.svg'
+import heroBanner from '../assets/hero-banner.png'
 import youtubeIcon from '../assets/icon-youtube.png'
 import xIcon from '../assets/icon-x.png'
 import githubIcon from '../assets/icon-github.svg'
@@ -37,11 +37,10 @@ export default function Home() {
           </div>
           <div className="hero__content">
             <div className="hero__text">
-              <p className="hero__eyebrow">Front-end Developer</p>
-              <h1 className="hero__name">Your Name</h1>
+              <p className="hero__eyebrow">Creator & Developer</p>
+              <h1 className="hero__name">mon/shirumono</h1>
               <p className="hero__bio">
-                HTML/CSSが得意で、Reactを勉強中です。ユーザーが迷わないUIを
-                目指して制作しています。
+                主に作曲を行なっており、ゲーム制作やWeb、オーディオプラグインなどの開発も行っています
                 {/* EDIT: ここを書き換える */}
               </p>
             </div>
@@ -84,7 +83,7 @@ export default function Home() {
         <div className="links__grid">
           <a
             className="links__item"
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/@siruMONo_42"
             target="_blank"
             rel="noreferrer"
           >
@@ -94,7 +93,7 @@ export default function Home() {
           </a>
           <a
             className="links__item"
-            href="https://x.com/"
+            href="https://x.com/shiruMONo_42"
             target="_blank"
             rel="noreferrer"
           >
@@ -104,7 +103,7 @@ export default function Home() {
           </a>
           <a
             className="links__item"
-            href="https://github.com/"
+            href="https://github.com/shirumono42"
             target="_blank"
             rel="noreferrer"
           >
