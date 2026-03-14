@@ -113,7 +113,6 @@ export default function Home() {
           </a>
         </div>
         <p className="links__note">
-          連絡先や追加リンクがあればここに追記できます。
           {/* EDIT: ここを書き換える */}
         </p>
         <Link className="links__cta" to="/works/portfolio">

@@ -1,9 +1,18 @@
-import portfolioThumb from '../assets/works/portfolio-thumb.svg'
-import portfolioMain from '../assets/works/portfolio-main.svg'
+import portfolioThumb from '../assets/monmon.png'
+import portfolioMain from '../assets/hero-banner.png'
+import tenageMain from '../assets/tenage1.png'
+import tenageThumb from '../assets/tenage2.png'
 import taskThumb from '../assets/works/task-thumb.svg'
 import taskMain from '../assets/works/task-main.svg'
 import landingThumb from '../assets/works/landing-thumb.svg'
 import landingMain from '../assets/works/landing-main.svg'
+import mfes2026_ed_thumb from '../assets/M_Fes2026_ed.png'
+import mfes2026_ed_main from '../assets/M_Fes2026_ed.png'
+import mfes2026_thumb from '../assets/M_Fes2026_image.png'
+import mfes2026_main from '../assets/M_Fes2026_image.png'
+import anonatu from '../assets/anonatu.png'
+import anonatu2 from '../assets/anonatu2.png'
+
 
 export type WorkItem = {
   id: string
@@ -19,8 +28,8 @@ export const works: WorkItem[] = [
   {
     id: 'm-fes2026-ed',
     title: 'M→Fes 2026 ED',
-    thumbnail: landingThumb, // TODO: ここに画像を配置
-    image: landingMain, // TODO: ここに画像を配置
+    thumbnail: mfes2026_ed_thumb, // TODO: ここに画像を配置
+    image: mfes2026_ed_main, // TODO: ここに画像を配置
     overview: '2026年のM→Fesのエンディング映像での音楽', // EDIT: ここを書き換える
     techs: ['Cubase'],
     comment:
@@ -38,8 +47,8 @@ export const works: WorkItem[] = [
   {
     id: 'tenage-dj',
     title: '空気読みDJテンアゲの助',
-    thumbnail: portfolioThumb, // TODO: ここに画像を配置
-    image: portfolioMain, // TODO: ここに画像を配置
+    thumbnail: tenageThumb, // TODO: ここに画像を配置
+    image: tenageMain, // TODO: ここに画像を配置
     overview: 'AIがチャットの雰囲気を読み取り、それに合わせたBGMを流す次世代のチャットアプリ', // EDIT: ここを書き換える
     techs: ['Python', 'ComfyUI', 'React', 'TypeScript'],
     comment:
@@ -57,8 +66,8 @@ export const works: WorkItem[] = [
   {
     id: 'm-fes2026-web',
     title: 'M→Fes 2026 Official Page',
-    thumbnail: landingThumb, // TODO: ここに画像を配置
-    image: landingMain, // TODO: ここに画像を配置
+    thumbnail: mfes2026_thumb, // TODO: ここに画像を配置
+    image: mfes2026_main, // TODO: ここに画像を配置
     overview: '2026年のM→Fesのホームページ', // EDIT: ここを書き換える
     techs: ['Studio', 'Cavalry', 'Figma'],
     comment:
@@ -67,8 +76,8 @@ export const works: WorkItem[] = [
   {
     id: 'anonatu-remix',
     title: 'あの夏のいつかは（Short Remix）',
-    thumbnail: landingThumb, // TODO: ここに画像を配置
-    image: landingMain, // TODO: ここに画像を配置
+    thumbnail: anonatu2, // TODO: ここに画像を配置
+    image: anonatu, // TODO: ここに画像を配置
     overview: `
 *Luna様による「あの夏のいつかはfeat.Otomachi Una & Rana | 2019 Ver.」をShort Remixさせていただきました!`, // EDIT: ここを書き換える
     techs: ['Cubase', 'Cavalry', 'ComfyUI', 'DaVinci Resolve'],
