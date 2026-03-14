@@ -17,6 +17,16 @@ export type WorkItem = {
 
 export const works: WorkItem[] = [
   {
+    id: 'm-fes2026-ed',
+    title: 'M→Fes 2026 ED',
+    thumbnail: landingThumb, // TODO: ここに画像を配置
+    image: landingMain, // TODO: ここに画像を配置
+    overview: '2026年のM→Fesのエンディング映像での音楽', // EDIT: ここを書き換える
+    techs: ['Cubase'],
+    comment:
+      'M→Fes2026のテーマ「寒色・透明感」に合わせてED映像担当のカン麦と協力して制作した。著作権の都合により公開はできない', // EDIT: ここを書き換える
+  },
+  {
     id: 'portfolio-site',
     title: 'Portfolio Site',
     thumbnail: portfolioThumb, // TODO: ここに画像を配置

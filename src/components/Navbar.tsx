@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import logoImage from '../assets/aikon.jpg'
+import logoImage from '../assets/monmon.png'
 
 const navItems = [
   { id: 'profile', label: 'Profile' },
